@@ -1,0 +1,46 @@
+:root {
+    /* ==============================
+       Body Background (approx.)
+    ============================== */
+    --color-bg-body1: #29404A;
+    --color-bg-body2: #1E292F;
+    /* Rectangle 2 */
+
+
+    /* ==============================
+       Button Gradients
+    ============================== */
+    --color-btn-gradient-start: #81bdff; /* Lighter blue */
+    --color-btn-gradient-end: #5ed8ff; /* Lighter cyan-blue */
+
+    /* ==============================
+       Text Colors
+    ============================== */
+    --color-text-light: #ffffff; /* White text */
+    --color-text-dark: #253941; /* Darker text (used on light backgrounds/buttons) */
+
+    /* ==============================
+       Button (Alternate)
+    ============================== */
+    --color-btn-alt: #52a4ff; /* Solid blue button color */
+
+    /* ==============================
+       Icon Colors
+    ============================== */
+    --color-icon-green: #2bbca5;
+    --color-icon-blue: #7bbfff;
+    --color-icon-cyan: #62d7ff; /* Sometimes used in a gradient */
+    --color-icon-purple: #c743f7;
+
+    /* ==============================
+       Footer Background
+       (with 40% transparency)
+    ============================== */
+    --color-footer: rgba(24, 32, 37, 0.4);
+
+    /* ==============================
+       Transparent Block Backgrounds
+    ============================== */
+    --color-bg-light-1: rgba(242, 242, 242, 0.02); /* 2% opacity */
+    --color-bg-light-2: rgba(221, 221, 221, 0.07); /* 7% opacity */
+}
