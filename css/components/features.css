@@ -1,0 +1,56 @@
+/* =========== FEATURES BLOCK =========== */
+.features {
+    margin-top: 280px;
+    padding: 40px 0;
+    /* No background override, as requested */
+    color: var(--color-text-light);
+}
+
+.features__list {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: flex-start;
+    list-style: none;
+    /*margin: 0;*/
+    margin-top: 120px;
+    padding: 0;
+    background: rgba(242, 242, 242, 0.02);
+    border: 1px solid rgba(221, 221, 221, 0.07);
+    backdrop-filter: blur(27.5px);
+    border-radius: 22px;
+
+}
+
+.features__item {
+    text-align: center;
+    margin-top: 30px;
+    max-width: 200px;
+}
+
+.features__icon {
+    margin-bottom: 1rem;
+    background: rgba(126, 187, 255, 0.06);
+    border: 1px solid rgba(126, 187, 255, 0.2);
+    border-radius: 26px;
+    height: 120px;
+    width: 174px;
+    display: flex; /* Добавляем флекс */
+    align-items: center; /* Выравнивание по вертикали */
+    justify-content: center; /* Выравнивание по горизонтали */
+}
+
+.features__icon img {
+    max-width: 100%;
+    height: auto; /* Сохраняем пропорции изображения */
+}
+
+.features__text {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+
+}

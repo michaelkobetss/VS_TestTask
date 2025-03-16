@@ -1,0 +1,26 @@
+<section class="contact container">
+    <h2 class="contact__title">Contact Us</h2>
+    <div class="contact__form-container">
+        <form class="contact__form" id="contact-form">
+            <div class="contact__field">
+                <label for="name">Name</label>
+                <input id="name" name="name" required type="text">
+                <span class="contact__error">Name must contain only letters and be at least 2 characters long.</span>
+            </div>
+
+            <div class="contact__field">
+                <label for="email">Email</label>
+                <input id="email" name="email" required type="email">
+                <span class="contact__error">Enter a valid email address.</span>
+            </div>
+
+            <div class="contact__field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <span class="contact__error">Message must be at least 10 characters long.</span>
+            </div>
+
+            <button class="contact__button" type="submit">Send Message</button>
+        </form>
+    </div>
+</section>

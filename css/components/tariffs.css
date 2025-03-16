@@ -1,0 +1,77 @@
+/* =========== TARIFFS BLOCK =========== */
+.tariffs {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.tariffs__title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.tariffs__list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.tariffs__card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tariffs__icon {
+    margin-bottom: 15px;
+}
+
+.tariffs__icon img {
+    width: 50px;
+    height: auto;
+}
+
+.tariffs__plan {
+    font-size: 20px;
+    font-weight: 600;
+    color: #88b2ff;
+}
+
+.tariffs__price {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.tariffs__price span {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.tariffs__features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.tariffs__features li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.tariffs__button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #4a90e2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
