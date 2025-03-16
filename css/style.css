@@ -5,6 +5,10 @@
 /* Component-specific CSS files */
 @import url('./components/header.css');
 @import url('./components/banner.css');
+@import url('./components/features.css');
+@import url('./components/how-to-use.css');
+@import url('./components/tariffs.css');
+@import url('./components/contact.css');
 @import url('./components/footer.css');
 
 

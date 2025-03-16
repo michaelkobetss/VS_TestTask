@@ -1,0 +1,95 @@
+/* =========== CONTACT FORM =========== */
+.contact {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.contact__title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.contact__form-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact__field {
+    text-align: left;
+}
+
+.contact__field label {
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact__field input,
+.contact__field textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid transparent;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.contact__field textarea {
+    min-height: 100px;
+    resize: none;
+}
+
+.contact__field input:focus,
+.contact__field textarea:focus {
+    border-color: #4a90e2;
+}
+
+.contact__field.valid input,
+.contact__field.valid textarea {
+    border-color: #2ecc71;
+}
+
+.contact__field.invalid input,
+.contact__field.invalid textarea {
+    border-color: #e74c3c;
+}
+
+.contact__error {
+    font-size: 12px;
+    color: #e74c3c;
+    display: none;
+    margin-top: 5px;
+}
+
+.contact__button {
+    background: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact__button:hover {
+    background: #357ABD;
+}
